@@ -1,0 +1,337 @@
+/* This is the logo */
+.logo {
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 5px;
+  padding: 0px;
+  transition: all 2s;
+}
+.logo:hover {
+  transform: scale(1) rotate(360deg);
+}
+/* /This is the logo */
+
+/* These are the bottom social media links and everythinjg in the footer */
+.copyright {
+  text-align: center;
+}
+.test{
+  position: inline-block;
+   margin: 5px;
+   padding: 5px;
+   height: 50px;
+   width: 50px;
+   transition: all 1.5s
+ }
+ .test:hover {
+   transform: scale(2) rotate(360deg);  
+ }
+ .test2 {
+   position: inline-block;
+   margin: 4px;
+   padding:6px;
+   height: 45px;
+   width: 55px;
+   transition: all 1.5s
+ }
+ .test2:hover {
+   transform: scale(2) rotate(360deg);  
+ }
+/* These are the bottom social media links and everything in the footer*/
+
+
+.font {
+  font-size: 100%;
+  text-align: justify;
+}
+
+.pic {
+  border-radius: 150px;
+}
+.image2 {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.first-text {
+  font-size: 20px;
+}
+/* This is the flex container in Hstyles.html */
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+justify-content: space-between;
+}
+.haircut{
+  position: inline block;
+  max-width: 600px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+/* /This is the flex container in Hstyles.html */
+
+/* This is the images on the index.html */
+.homepage-img1 {
+  Width: 25%;
+  height: 25%;
+  margin-bottom: 10px;
+  float: left;
+}
+.homepage-img2 {
+  Width: 25%;
+  height: 25%;
+  margin-bottom: 10px;
+  float: left;
+}
+/* /This is the images on the index.html */
+
+/* This is the navbar */
+ul {
+  list-style-type: none;
+  margin-right: auto; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+  opacity: .75;
+  border-radius: 30px;
+  font-size: 15px;
+}
+li {
+  float: left;
+  color: black;
+}
+a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #000080; 
+}
+/* This is the navbar */
+
+/* This is the logo */
+.logo {
+  border-radius: 100px; 
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 5px;
+  padding: 0px;
+  transition: all 2s;
+}
+.logo:hover {
+  transform: scale(1) rotate(360deg); 
+}
+/* /This is the logo */
+.pic {
+  border-radius: 150px; 
+}
+.image2 {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.first-text {
+  font-size: 30px;
+  font-family: serif;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.haircut{
+  position: inline block;
+  max-width: 600px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+.homepage-img1 {
+  Width: 560px;
+  height: 560px;
+  margin-right: 50px;
+  float: left;
+}
+.homepage-img2 {
+  Width: 560px;
+  margin-right: 50px;
+  height: 560px;
+  float: left;
+}
+
+.inline-block {
+  position: inline block;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 30px;
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 97.5%;
+  background: #1abc9c;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:darkgrey;
+  border-radius: 15px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: grey;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:20px;
+  color: black;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
+.days li .active1 {
+  padding: 5px;
+  background: #1a38bc;
+  color: white !important;
+}
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-wrap: wrap;
+}
+.flex-container4 {
+  display: flex;
+  justify-content: space-around;
+}
+.staff {
+  width: 440px;
+  height: 700px;
+}
+.staff2 {
+  width: 400px;
+  height: 700px;
+}
+/* this is the prices table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightseagreen;
+  opacity: .70;
+}
+.heading-home {
+  font-family: serif;
+  font-size: 40px;
+}
+h2 {
+  font-family: serif;
+  font-size: 30px;
+}
+.nav-bar {
+  font-size: x-large;
+  font-family: serif;
+}
+body {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.flex-container5 {
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 5;
+}
+.flex-container6 {
+  display: flex;
+  justify-content: center;
+  }
+.mail-phone :hover {
+  color: lightseagreen;
+}
+.mail-phone {
+  background-color: darkblue;
+  border-radius: 15px;
+  opacity: .70;
+}
+.date-text {
+  font-family: serif;
+  font-size: 20px;
+}
+.first-text1 {
+  font-size: 25px;
+  font-family: serif;
+}
+.staff-names {
+  font-size: 30px;
+  font-family: serif;
+}
